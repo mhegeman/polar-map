@@ -1,4 +1,4 @@
-# Load required libraries
+# Load libraries
 library(tidyverse)
 library(sf)
 library(rnaturalearth)
@@ -65,7 +65,6 @@ ggplot() +
     plot.subtitle = element_text(hjust = 0.5),
     legend.position = "none"
   ) +
-  # Add labels
   labs(
     title = "Shelters in Antarctica",
     subtitle = "Polar Stereographic Projection (EPSG:3031)",
